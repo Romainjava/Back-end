@@ -1,0 +1,57 @@
+
+input[type=search]{
+    width: 80%;
+    border-radius: 18px;
+}
+.btn-light{
+    border-radius: 15px;
+}
+
+.central-tuto {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    justify-content: space-between;
+    
+}
+.type{
+    height: 1330px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.description-type {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: repeat(4 , 25%);
+    grid-gap: 15px;
+    justify-content: center;
+   
+}
+.description-type > figure > img {
+   width: 100%;
+   max-height: 264px;
+   min-height: 100%;
+   border: 10px double black;
+   object-fit: cover;
+   object-position: top;
+}
+figcaption {
+    text-align: center;
+}
+
+#test, #video, #patrons {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#patrons {
+    margin-top: 28px;
+}
+.youtube {
+    grid-template-rows: 20% 20% 20% 20%  !important;
+    grid-template-columns: 61.5%;
+}
+
+iframe {
+    max-height: 303px;
+}
